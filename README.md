@@ -1,4 +1,4 @@
-# Retro Box Grape Theme for Atom Forks
+# Retro Box Theme for Atom Forks
 
 This is a retro theme, aimed to invoke comfort and nostalgia for a better time filled with laughs and good company.
 
