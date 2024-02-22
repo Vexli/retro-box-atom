@@ -12,28 +12,28 @@
 
 
 // Text Colors
-@text-color:           @silver;
-@text-color-subtle:    hsl(0,0%,50%);
-@text-color-highlight: hsl(0,0%,94%);
+@text-color:           @ui-site-color-2;
+@text-color-subtle:    darken(@ui-site-color-2, 10%);
+@text-color-highlight: lighten(@ui-site-color-2, 10%);
 @text-color-selected:  hsl(0,0%,100%);
 
-@text-color-info:    @silver;
-@text-color-success: @teal;
-@text-color-warning: @gold;
-@text-color-error:   @red;
+@text-color-info:    @ui-site-color-3;
+@text-color-success: @ui-site-color-4;
+@text-color-warning: @ui-site-color-1;
+@text-color-error:   @ui-site-color-5;
 
 // Background colors
-@background-color-info:    @silver;
-@background-color-success: @teal;
-@background-color-warning: @gold;
-@background-color-error:   @red;
+@background-color-info:    @ui-site-color-3;
+@background-color-success: @ui-site-color-4;
+@background-color-warning: @ui-site-color-1;
+@background-color-error:   @ui-site-color-5;
 
 @background-color-highlight: lighten(@base-background-color, 5%);
 @background-color-selected:  lighten(@base-background-color, 10%);
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: @purple;
+@base-background-color: #4C3384;  //Purple
 @base-border-color:     darken(@base-background-color, 8%);
 
 // Component colors
@@ -70,11 +70,11 @@
 @tree-view-border-color:     @base-border-color;
 
 // Site colors
-@purple: #6545B2;
-@silver: #C5C5C5;
-@gold: #FBCB21;
-@teal: #02A7A1;
-@red: #EE0011;
+@ui-site-color-1: #FF8800;  //Orange
+@ui-site-color-2: #C5C5C5;  //Silver
+@ui-site-color-3: #FBCB21;  //Gold
+@ui-site-color-4: #02A7A1;  //Teal
+@ui-site-color-5: #EE0011;  //Cherry
 
 // Sizes
 @font-size: 12px;
